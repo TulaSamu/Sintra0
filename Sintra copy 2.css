@@ -1,0 +1,152 @@
+html, body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F3F3;
+}
+
+header{
+    margin: 0 ;
+    font-size: 4rem;
+    text-align: center;
+    background-color: #168ADD;
+    color: white;
+    text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.705); 
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    color: #012941;
+}
+
+.columna{
+    margin: 0 auto;
+    width: 48vw;
+    height: 40vh;
+    margin-top: 2vh;
+    border-radius: 1vh;
+}
+
+.columna:hover{
+    box-shadow: 0.7vh 0.7vh 2.2vh  #89CCB1;
+}
+
+.titulo{
+    font-size: 1.8vw;
+    margin-left: 1vw;
+}
+
+.texto{
+    font-size: 1vw;
+    margin-left: 1vw;
+    margin-right: 0.5vh;
+}
+
+img, iframe{
+    width: 38vw;
+    height: 40vh;
+    border-radius: 1vh;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#uno{
+    order: 1;
+    background-color: #93d4d5;
+	flex-basis: 50%;
+    margin-right: 5vw;
+}
+
+#dos{
+    order: 2;
+    background-color: #93d4d5;
+	flex-basis: 38%;
+}
+
+#tres{
+    order: 3;
+    background-color: #93d4d5;
+	flex-basis: 50%;
+    margin-right: 5vw;
+}
+
+#cuatro{
+    order: 4;
+    background-color: #93d4d5;
+	flex-basis: 38%;
+}
+
+@media screen and (max-width: 767px ){
+    
+    .columna{
+        margin: 0 auto;
+        width: 97vw;
+        height: 40vh;
+        margin-top: 2vh;
+    }
+
+    img, iframe{
+        width: 95vw;
+        height: 40vh;
+    }
+
+    .titulo{
+        font-size: 4vW;
+        margin-left: 1.5vw;
+    }
+
+    #titulo1{
+        margin-top: 4vh;
+    }
+
+    .texto{
+        font-size: 2.2vW;
+        margin-left: 1.5vw;
+    }
+
+    #texto1{
+        margin-top: 5vh;
+    }
+
+    header{
+        margin: 0;
+        font-size: 8vw;
+        text-align: center;
+        background-color: #168ADD;
+        color: white;
+        text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.705); 
+    }
+
+    #uno{
+        order: 1;
+        background-color: #93d4d5;
+        flex-basis: 97%;
+        margin-right: 1.5%;
+    }
+
+    #dos{
+        order: 2;
+        background-color: #93d4d5;
+        flex-basis: 97%;
+    }
+
+    #tres{
+        order: 3;
+        background-color: #93d4d5;
+	    flex-basis: 97%;
+        margin-right: 1.5%;
+    }
+
+    #cuatro{
+        order: 4;
+        background-color: #93d4d5;
+	    flex-basis: 97%;
+    }
+
+}
